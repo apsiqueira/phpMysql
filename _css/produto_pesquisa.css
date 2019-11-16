@@ -1,0 +1,38 @@
+/* estilos da pesquisa */
+main div#janela_pesquisa {
+    width:860px;
+    height: 70px;
+    margin:0 auto ;
+    border-bottom:1px dotted #ddd;
+
+}
+
+main div#janela_pesquisa form {
+    width:470px;
+    margin:0 auto;
+    padding: 0%;
+}
+
+main div#janela_pesquisa form input[type="text"] {
+
+    width:500px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float:left ;
+    outline: none;
+    position: absolute;
+   
+}
+
+main div#janela_pesquisa form input[type="image"] {
+    outline: none;
+    cursor: pointer;
+    float: center;
+    position: absolute;
+ 
+ 
+}
+
+/* fim do estilo da pesquisa */
